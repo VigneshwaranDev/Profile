@@ -1,0 +1,145 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #3ca59d;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f4f6ff;
+}
+
+.navbar {
+    margin: 30px 0 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    padding: 160px 0 40px 0;
+    background-color: #f4f6ff;
+}
+
+#home h1 {
+    font-size: 85px;
+    margin: 30px 0 30px 0;
+    font-family: "Dancing Script", cursive;
+}
+
+#home h2 {
+    font-size: 30px;
+    margin: 50px 0 50px 0;
+}
+
+#home img {
+    width: 165px;
+    height: 165px;
+    margin: 10px 0 10px 0;
+}
+
+#about {
+    padding: 100px 0 45px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#about h1 {
+    font-size: 50px;
+    margin: 0 0 30px 0;
+}
+
+#about h2 {
+    font-size: 50px;
+    margin: 0 0 30px 0;
+    font-family: "Dancing Script", cursive;
+}
+
+#about .location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px 0 40px 0;
+    padding: 20px 0 20px 0;
+}
+
+.location h1 {
+    flex: 1;
+    font-size: 60px;
+}
+
+#about .education {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px 0 40px 0;
+    padding: 20px 0 20px 0;
+}
+
+.education h1 {
+    flex: 1;
+    font-size: 60px;
+}
+
+#work {
+    background-color: #f4f6ff;
+    padding: 100px 0 45px 0;
+}
+
+#work h1 {
+    font-size: 50px;
+    margin: 0 0 30px 0;
+}
+
+.tech nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px 0 20px 0;
+}
+
+.tech h3 {
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+footer {
+    padding: 5px 0 5px 0;
+}
+
+footer h5 {
+    margin: 10px 0 0 0;
+    text-decoration: underline;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+}
+
+p {
+    font-size: 15px;
+    margin: 10px 0 0 0;
+}
